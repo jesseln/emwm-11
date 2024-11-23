@@ -10,8 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.8.2",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/supabase": "^1.4.3",
+    "@pinia/nuxt": "^0.7.0",
+    "@types/d3": "^7.4.3",
+    "floating-vue": "^5.2.2",
     "nuxt": "^3.14.1592",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vueperslides": "^3.5.1"
+  },
+  "devDependencies": {
+    "nuxt-lodash": "^2.5.3",
+    "sass": "^1.81.0"
   }
 }
